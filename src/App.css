@@ -1,0 +1,50 @@
+.calculator {
+  background-color: black;
+  display: flex;
+  height:100%;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.inputs {
+  position: relative;
+  display: flex;
+  height: 20vh;
+  width: 99%;
+  background-color: black;
+  border-radius: 18px;
+  align-items: center; 
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.elem{
+  flex-direction: row;
+  display: flex;
+}
+.buttons {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display:table;
+  flex-wrap: wrap;
+  user-select: none;
+ 
+}
+.eachButton {
+  height: 10svh;
+  width: 20vw;
+  border-radius: 10vw;
+  display: flex;
+  color: whitesmoke;
+  margin: 20px; 
+  align-items: center;
+  justify-content: center;
+  background-color: darkgoldenrod;
+  cursor:pointer; 
+  outline: none;
+}
+.history{
+  position: absolute;
+  cursor:pointer;
+}
